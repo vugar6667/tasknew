@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  background-image: url(/assets/240_F_323929694_BKkGKE8dWIWqpG91tzYFC3GHPNdjg6mh.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main {
+  position: relative;
+  padding: 0 2rem;
+}
+.main .navbar {
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .navbar .links {
+  display: flex;
+  gap: 2rem;
+}
+.main .navbar .links .list {
+  list-style: none;
+}
+.main .navbar .links .list .content {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+.main .navbar .logo .bandage {
+  font-size: 1.5rem;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+.main .navbar .burgermenubtn {
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.main .navbar .actionbtn {
+  background-color: orange;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main .dropdownmenu {
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  width: 300px;
+  background-color: black;
+  display: none;
+}
+.main .dropdownmenu .list2 {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .dropdownmenu .list2 .content2 {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: none;
+  }
+  .actionbtn {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
